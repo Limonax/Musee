@@ -1,0 +1,36 @@
+/* Refont Musée d'Aquitaine - Justine Magry 2019 */
+*{
+	margin:0;
+	padding: 0;
+
+}
+
+body{
+background: no-repeat url("fond_page3.png"), #212121;
+width: 100vw;
+height: 100vh;
+background-size:70%;
+background-position-y: 10vh;
+
+}
+
+.pharaon{
+	position: absolute; 
+	right: 5%;
+	bottom: 0;
+}
+.titre{
+	color: white;
+	background-color:	rgb(117, 0, 0);
+	width: 30vw;
+	text-align: center;
+	position: absolute;
+	top: 5vh;
+	font-family: "cinzel", "serif", "regular";
+}
+.date{
+	color: white;
+	text-align: right;
+	font-family: roboto;
+
+}

@@ -1,4 +1,4 @@
-<script>
+
 function move() {
   var elem = document.getElementById("myBar");
   var width = 1;
@@ -12,4 +12,3 @@ function move() {
     }
   }a
 }
-</script>
