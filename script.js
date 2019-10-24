@@ -10,6 +10,6 @@ function move() {
       width++;
       elem.style.width = width + '%';
     }
-  }
+  }a
 }
 </script>
