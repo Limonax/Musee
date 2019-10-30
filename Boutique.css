@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Brilliant Signature 1';
+    src: url('BrilliantSignature-1Regular.woff2') format('woff2'),
+        url('BrilliantSignature-1Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Titre{
+    color: white;
+    background-color: rgb(117, 0, 0);
+    width: 30vw;
+	text-align: center;
+	position: absolute;
+	top: 5vh;
+	font-family: "cinzel";
+	letter-spacing: 5px;
+	z-index: 2;
+
+}
+
+body{
+    background: no-repeat url("images/fond_page4.png");
+    text-align: center;
+    background-size: 100%;
+}
+
+/* .fondnoir{
+    background-color: #212121;
+    z-index: -1;
+    padding-top: 300px;
+    padding-left: 700px;
+    padding-right: 700px;
+} */
+
+h2{
+    font-size: 2.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 25px;
+    color: #b9830f ;  
+   
+}
+
+h3 {
+    font-family: 'Brilliant Signature 1';
+    font-size: 4.5em;
+    color: white;
+    
+}
+
+.texte {
+    background-color: none;
+
+}
+
+.Statue{
+    position: absolute;
+    left: 2%;
+    top: -35%;
+}
+
+#bouttons a{
+    font-family: helvetica;
+    font-size: 1.7em;
+	margin-bottom: 60px;
+    line-height: 150%;
+    letter-spacing: 7px;
+    padding-right:35px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px #212121 solid;
+	text-decoration: none;
+	color: #212121;
+    font-size: 1.5em; 
+    display: inline-block;
+    margin: 30px;
+}
+
+#bouttons{
+    position: absolute;
+    left: 15%;
+    bottom: 0%;
+}
+
+
+.content{
+    position: absolute;
+    background-color: #212121;
+    top: calc(50% - 15vh);
+    left: calc(50% - 30vw);
+    width: 50vw;
+    height: 35vh;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+
+a{
+    border: 2px white solid;
+	text-decoration: none;
+	color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.hover {
+    
+}

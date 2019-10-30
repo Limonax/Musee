@@ -10,14 +10,81 @@
 <body>
 
 
-<h1 class="titre">Expositions</h1>
-<h3 class="date">Du 7 au 30 Octobre</h3>
-<h2>Egypte Antique</h2>
-<h3>Le coup de coeur</h3>
-<p>Atque, ut Tullius ait, ut etiam fere fame monitoae plerumque ad eum locum ubi aliquando pastae sunt revertuntur, ita himines instar turbinis instae turbinis.</p>
-<button>Lire la suite</button>
+	<h2 class="titre">Expositions</h2>
 
-<img class="pharaon" src="statue_page3_premierplan.png">
+
+	<div class="slider" id="slide1" style="transform: translateX(0%);">
+
+			<h3 class="date">Du 7 au 30 Octobre</h3>
+		
+			<div class="contenu">
+				<h2 id="content-title">Egypte Antique</h2><br>
+				<h3 id="content-subtitle">Le coup de coeur</h3><br>
+				<p id="content-text">Atque, ut Tullius ait, ut etiam fere fame <br>
+					 monitoae plerumque ad eum locum ubi <br>
+					 aliquando pastae sunt revertuntur, ita <br>
+					 himines instar turbinis instae turbinis.</p><br>
+				<a id="content-link" href="#">Lire la suite</a>
+			</div>
+		
+		<img class="pharaon" src="images/statue_page3_premierplan.png">
+
+	</div>
+
+	<div class="slider" id="slide2" style="transform: translateX(100%);">
+
+			<h3 class="date">Du 7 au 30 Octobre</h3>
+
+			<div class="contenu">
+					<h2 id="content-title">Liberte</h2><br>
+					<h3 id="content-subtitle">A ne pas rater</h3><br>
+					<p id="content-text">Atque, ut Tullius ait, ut etiam fere fame <br>
+						 monitoae plerumque ad eum locum ubi <br>
+						 aliquando pastae sunt revertuntur, ita <br>
+						 himines instar turbinis instae turbinis.</p><br>
+					<a id="content-link" href="#">Lire la suite</a>
+				</div>
+			
+			<img class="liberte" src="images/tableau.png">
+
+	</div>
+
+	<div class="slider" id="slide3" style="transform: translateX(200%);">
+
+			<h3 class="date">Du 7 au 30 Octobre</h3>
+
+
+			<div class="contenu">
+					<h2 id="content-title">Au temps des Dinos</h2><br>
+					<h3 id="content-subtitle">A voir en famille</h3><br>
+					<p id="content-text">Atque, ut Tullius ait, ut etiam fere fame <br>
+						 monitoae plerumque ad eum locum ubi <br>
+						 aliquando pastae sunt revertuntur, ita <br>
+						 himines instar turbinis instae turbinis.</p><br>
+					<a id="content-link" href="#">Lire la suite</a>
+				</div>
+			
+			<img class="dino" src="images/dino.png">
+
+	</div>
+
+	<div id="slide-display">
+		<span class="sd" onclick="slider(0)"></span>
+
+		<span class="sd" onclick="slider(1)"></span>
+
+		<span class="sd" onclick="slider(2)"></span>
+	</div>
+
+	<div>
+		<img src="images/next.png" id="next" onclick="next()">
+
+		<img src="images/back.png" id="back" onclick="prev()">
+	</div>
+
 
 </body>
+
+<script src="script.js"></script>
+
 </html>
